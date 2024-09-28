@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #007bff;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.typewriter {
+    font-size: 24px;
+    overflow: hidden;
+    border-right: .15em solid orange; /* Cursor */
+    white-space: nowrap; /* Keeps the text on a single line */
+    margin: 0 auto; /* Centering */
+    letter-spacing: .15em; /* Spacing */
+    animation: blink-caret 0.75s step-end infinite; /* Caret blinking */
+}
+
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #007bff;
+    color: white;
+}
